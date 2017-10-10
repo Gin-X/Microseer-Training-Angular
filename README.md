@@ -13,7 +13,7 @@ npm config set disturl https://npm.taobao.org/dist --global
 
 2，安装依赖包
 
-cnpm install
+npm install
 
 3，启动
 
