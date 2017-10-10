@@ -5,9 +5,10 @@
 nodejs
 
 # 启动步骤-打开终端
-1，安装淘宝镜像
+1，设置npm镜像
 
-npm install -g cnpm --registry=https://registry.npm.taobao.org
+npm config set registry https://registry.npm.taobao.org --global
+npm config set disturl https://npm.taobao.org/dist --global
 
 2，安装依赖包
 
