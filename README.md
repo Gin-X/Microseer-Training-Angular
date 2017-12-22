@@ -1,27 +1,23 @@
 # MicroseerTrainingAngular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.0.
+微知内训之组件化
 
-## Development server
+## 安装环境
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+nodejs
 
-## Code scaffolding
+## 启动步骤-打开终端
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1，设置npm镜像
 
-## Build
+npm config set registry https://registry.npm.taobao.org --global
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+npm config set disturl https://npm.taobao.org/dist --global
 
-## Running unit tests
+2，安装依赖包
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+npm install
 
-## Running end-to-end tests
+3，启动
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+npm start
